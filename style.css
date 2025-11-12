@@ -378,9 +378,12 @@ nav a:hover {
   border-radius: 4px;
 }
 
+
+
 /* ==========================
    FOOTER
 ========================== */
+/*
 footer {
   background: var(--accent-color);
   color: #fff;
@@ -423,6 +426,74 @@ footer {
   display: block;
   margin: 0 auto 10px;
 }
+
+*/
+
+
+/* ===============================
+   FOOTER
+   =============================== */
+.footer {
+    background: #003366;
+    color: #fff;
+    padding: 50px 20px 20px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.footer-logo {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.footer h4 {
+    margin-bottom: 10px;
+    color: #00b4d8;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul li {
+    margin-bottom: 8px;
+}
+
+.footer ul a {
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.footer ul a:hover {
+    color: #00b4d8;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #00b4d8;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    margin-top: 30px;
+    padding-top: 10px;
+    font-size: 0.9rem;
+}
+
+
+
+
 
 /* ==========================
    RESPONSIVE DESIGN
@@ -491,4 +562,46 @@ footer {
   display: flex;
   align-items: center;
   gap: 8px;
+}
+
+
+
+
+/* Fees Section */
+========================
+#fees {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+}
+
+#fees h2, #fees h3 {
+    color: #004080;
+    margin-bottom: 20px;
+}
+
+.fees-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    font-size: 0.95rem;
+}
+
+.fees-table th, .fees-table td {
+    border: 1px solid #ccc;
+    padding: 10px 12px;
+    text-align: left;
+}
+
+.fees-table th {
+    background-color: #004080;
+    color: #fff;
+}
+
+.fees-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#fees a {
+    color: #0066cc;
+    text-decoration: underline;
 }
